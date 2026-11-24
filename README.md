@@ -4,7 +4,7 @@
 
 **試玩：** https://serafuking.github.io/Gumdrop-Grand-Prix/
 
-- 語言：網址加 `?lang=en`（預設）、`?lang=zh-TW`、`?lang=zh-CN` 或 `?lang=ja`。
+- 語言：遊戲裡右上角選單 → 設定 → 語言（English、繁體中文、简体中文、日本語），當場切換；也可以在網址加 `?lang=zh-TW`、`?lang=zh-CN` 或 `?lang=ja`，預設英文。
 - 電腦與手機（橫拿、直拿、摺疊機）都能玩，版面跟著視窗大小重排。
 
 ## 玩法
