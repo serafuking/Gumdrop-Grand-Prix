@@ -1,0 +1,162 @@
+{
+ "format": 1,
+ "seed": 20261124,
+ "budget": {
+  "base": 6000,
+  "nitro": 6000,
+  "pitstop": 5000,
+  "pole": 5000
+ },
+ "modes": [
+  {
+   "name": "base",
+   "cost": 1.0,
+   "file": "base.json.gz",
+   "rounds": 6050,
+   "bytes": 452195,
+   "stats": {
+    "rtp": 0.9601,
+    "hit": 0.28744734,
+    "trigger": 0.00275834,
+    "wincap": 1.3e-07,
+    "maxWin": 5000.0
+   },
+   "published": {
+    "rtp": 0.9601,
+    "hit": 0.28744734,
+    "trigger": 0.00275834,
+    "wincap": 1.2e-07,
+    "maxWin": 5000.0
+   },
+   "features": {
+    "不中": 2400,
+    "小贏（不到 1 倍）": 952,
+    "Nudge": 265,
+    "自然觸發（沒 Nudge）": 125,
+    "冠軍": 218,
+    "亞軍": 126,
+    "全滿 GRAND": 60,
+    "MINI": 129,
+    "MINOR": 47,
+    "MAJOR": 50,
+    "GRAND 獎盃": 31,
+    "封頂 5,000 倍": 12
+   }
+  },
+  {
+   "name": "nitro",
+   "cost": 1.25,
+   "file": "nitro.json.gz",
+   "rounds": 6050,
+   "bytes": 489120,
+   "stats": {
+    "rtp": 0.9601,
+    "hit": 0.27799181,
+    "trigger": 0.00590881,
+    "wincap": 1.3e-07,
+    "maxWin": 5000.0
+   },
+   "published": {
+    "rtp": 0.9601,
+    "hit": 0.27799181,
+    "trigger": 0.00590881,
+    "wincap": 1.3e-07,
+    "maxWin": 5000.0
+   },
+   "features": {
+    "不中": 2388,
+    "小贏（不到 1 倍）": 943,
+    "Nudge": 365,
+    "自然觸發（沒 Nudge）": 173,
+    "冠軍": 303,
+    "亞軍": 160,
+    "全滿 GRAND": 69,
+    "MINI": 200,
+    "MINOR": 74,
+    "MAJOR": 53,
+    "GRAND 獎盃": 29,
+    "封頂 5,000 倍": 12
+   }
+  },
+  {
+   "name": "pitstop",
+   "cost": 100.0,
+   "file": "pitstop.json.gz",
+   "rounds": 5023,
+   "bytes": 937246,
+   "stats": {
+    "rtp": 0.9601,
+    "hit": 1.0,
+    "trigger": 1.0,
+    "wincap": 1e-05,
+    "maxWin": 5000.0
+   },
+   "published": {
+    "rtp": 0.9601,
+    "hit": 1.0,
+    "trigger": 1.0,
+    "wincap": 1e-05,
+    "maxWin": 5000.0
+   },
+   "features": {
+    "冠軍": 2624,
+    "亞軍": 1136,
+    "全滿 GRAND": 415,
+    "MINI": 524,
+    "MINOR": 170,
+    "MAJOR": 161,
+    "GRAND 獎盃": 33,
+    "封頂 5,000 倍": 12
+   }
+  },
+  {
+   "name": "pole",
+   "cost": 300.0,
+   "file": "pole.json.gz",
+   "rounds": 5005,
+   "bytes": 1007782,
+   "stats": {
+    "rtp": 0.9601,
+    "hit": 1.0,
+    "trigger": 1.0,
+    "wincap": 3.333e-05,
+    "maxWin": 5000.0
+   },
+   "published": {
+    "rtp": 0.9601,
+    "hit": 1.0,
+    "trigger": 1.0,
+    "wincap": 3.333e-05,
+    "maxWin": 5000.0
+   },
+   "features": {
+    "冠軍": 3694,
+    "亞軍": 2451,
+    "全滿 GRAND": 984,
+    "MINI": 562,
+    "MINOR": 200,
+    "MAJOR": 157,
+    "GRAND 獎盃": 32,
+    "封頂 5,000 倍": 13
+   }
+  }
+ ],
+ "source": {
+  "base": {
+   "weights": "84c75ea03ec94f3f618b4e5d71543321e1abe8f0a74dae171fb978ca11efa425",
+   "events": "0ea781a6d83171cd13936951c2f2fdde64f812564ef75fb8a03648c7094342df"
+  },
+  "nitro": {
+   "weights": "df4da7fc576fba886b0884c7f6c85a739107b60717ab2896264266286e261051",
+   "events": "0fbe5cc67dd4702b5d2b332956d4b208d131b7b3620dbc5c49c1cb10fb476507"
+  },
+  "pitstop": {
+   "weights": "69e3bacda36062762bbb858cf70594ff1e6760e0d7482afa7e89bcaa3ea4124d",
+   "events": "ef8a41c7d8333aee67ec7eb68b71b4ad24c2aa23abc1c6449c9db0ba0bd514d8"
+  },
+  "pole": {
+   "weights": "fd27d9b19329e89765c3f773557a251c917c46eb76566df9d848d963ef5f9dfc",
+   "events": "65e131e2d5bf7d487dfb7733fc6fa6b0fba959320a448c1d864e02d0b79fbc00"
+  }
+ }
+}
