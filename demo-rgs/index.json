@@ -5,41 +5,45 @@
   "base": 6000,
   "nitro": 6000,
   "pitstop": 5000,
-  "pole": 5000
+  "pole": 5000,
+  "turbolap": 5000,
+  "qualifying": 6000
  },
  "modes": [
   {
    "name": "base",
    "cost": 1.0,
    "file": "base.json.gz",
-   "rounds": 6050,
-   "bytes": 452195,
+   "rounds": 6043,
+   "bytes": 451304,
    "stats": {
     "rtp": 0.9601,
-    "hit": 0.28744734,
-    "trigger": 0.00275834,
+    "hit": 0.28712695,
+    "trigger": 0.00243795,
     "wincap": 1.3e-07,
     "maxWin": 5000.0
    },
    "published": {
     "rtp": 0.9601,
-    "hit": 0.28744734,
-    "trigger": 0.00275834,
-    "wincap": 1.2e-07,
+    "hit": 0.28712695,
+    "trigger": 0.00243795,
+    "wincap": 1.3e-07,
     "maxWin": 5000.0
    },
    "features": {
-    "不中": 2400,
-    "小贏（不到 1 倍）": 952,
-    "Nudge": 265,
-    "自然觸發（沒 Nudge）": 125,
-    "冠軍": 218,
-    "亞軍": 126,
-    "全滿 GRAND": 60,
-    "MINI": 129,
-    "MINOR": 47,
-    "MAJOR": 50,
-    "GRAND 獎盃": 31,
+    "不中": 2404,
+    "小贏（不到 1 倍）": 953,
+    "Nudge": 268,
+    "自然觸發（沒 Nudge）": 108,
+    "TURBO LAP": 93,
+    "TURBO LAP 第三名沒全滿": 50,
+    "冠軍": 236,
+    "亞軍": 155,
+    "全滿 GRAND": 58,
+    "MINI": 125,
+    "MINOR": 49,
+    "MAJOR": 31,
+    "GRAND 獎盃": 30,
     "封頂 5,000 倍": 12
    }
   },
@@ -47,34 +51,36 @@
    "name": "nitro",
    "cost": 1.25,
    "file": "nitro.json.gz",
-   "rounds": 6050,
-   "bytes": 489120,
+   "rounds": 6044,
+   "bytes": 489582,
    "stats": {
-    "rtp": 0.9601,
-    "hit": 0.27799181,
-    "trigger": 0.00590881,
+    "rtp": 0.96009999,
+    "hit": 0.27731763,
+    "trigger": 0.00523463,
     "wincap": 1.3e-07,
     "maxWin": 5000.0
    },
    "published": {
-    "rtp": 0.9601,
-    "hit": 0.27799181,
-    "trigger": 0.00590881,
+    "rtp": 0.96009999,
+    "hit": 0.27731763,
+    "trigger": 0.00523463,
     "wincap": 1.3e-07,
     "maxWin": 5000.0
    },
    "features": {
-    "不中": 2388,
-    "小贏（不到 1 倍）": 943,
-    "Nudge": 365,
-    "自然觸發（沒 Nudge）": 173,
-    "冠軍": 303,
-    "亞軍": 160,
-    "全滿 GRAND": 69,
-    "MINI": 200,
-    "MINOR": 74,
-    "MAJOR": 53,
-    "GRAND 獎盃": 29,
+    "不中": 2392,
+    "小贏（不到 1 倍）": 945,
+    "Nudge": 353,
+    "自然觸發（沒 Nudge）": 169,
+    "TURBO LAP": 134,
+    "TURBO LAP 第三名沒全滿": 75,
+    "冠軍": 328,
+    "亞軍": 228,
+    "全滿 GRAND": 63,
+    "MINI": 202,
+    "MINOR": 75,
+    "MAJOR": 47,
+    "GRAND 獎盃": 30,
     "封頂 5,000 倍": 12
    }
   },
@@ -83,7 +89,7 @@
    "cost": 100.0,
    "file": "pitstop.json.gz",
    "rounds": 5023,
-   "bytes": 937246,
+   "bytes": 941534,
    "stats": {
     "rtp": 0.9601,
     "hit": 1.0,
@@ -114,7 +120,7 @@
    "cost": 300.0,
    "file": "pole.json.gz",
    "rounds": 5005,
-   "bytes": 1007782,
+   "bytes": 1011786,
    "stats": {
     "rtp": 0.9601,
     "hit": 1.0,
@@ -139,24 +145,104 @@
     "GRAND 獎盃": 32,
     "封頂 5,000 倍": 13
    }
+  },
+  {
+   "name": "turbolap",
+   "cost": 165.0,
+   "file": "turbolap.json.gz",
+   "rounds": 5007,
+   "bytes": 860743,
+   "stats": {
+    "rtp": 0.9601,
+    "hit": 1.0,
+    "trigger": 1.0,
+    "wincap": 1e-05,
+    "maxWin": 5000.0
+   },
+   "published": {
+    "rtp": 0.9601,
+    "hit": 1.0,
+    "trigger": 1.0,
+    "wincap": 1e-05,
+    "maxWin": 5000.0
+   },
+   "features": {
+    "TURBO LAP": 5007,
+    "TURBO LAP 第三名沒全滿": 2492,
+    "冠軍": 4258,
+    "亞軍": 3775,
+    "全滿 GRAND": 398,
+    "MINI": 479,
+    "MINOR": 163,
+    "MAJOR": 89,
+    "GRAND 獎盃": 38,
+    "封頂 5,000 倍": 12
+   }
+  },
+  {
+   "name": "qualifying",
+   "cost": 25.0,
+   "file": "qualifying.json.gz",
+   "rounds": 6027,
+   "bytes": 928724,
+   "stats": {
+    "rtp": 0.9601,
+    "hit": 0.35619638,
+    "trigger": 0.21889538,
+    "wincap": 2e-06,
+    "maxWin": 5000.0
+   },
+   "published": {
+    "rtp": 0.9601,
+    "hit": 0.35619638,
+    "trigger": 0.21889538,
+    "wincap": 2e-06,
+    "maxWin": 5000.0
+   },
+   "features": {
+    "不中": 1809,
+    "小贏（不到 1 倍）": 570,
+    "Nudge": 1597,
+    "自然觸發（沒 Nudge）": 897,
+    "TURBO LAP": 506,
+    "TURBO LAP 第三名沒全滿": 304,
+    "QUALIFYING LAP 觸發": 2494,
+    "QUALIFYING LAP 沒觸發": 3533,
+    "冠軍": 1503,
+    "亞軍": 877,
+    "全滿 GRAND": 216,
+    "MINI": 488,
+    "MINOR": 154,
+    "MAJOR": 78,
+    "GRAND 獎盃": 31,
+    "封頂 5,000 倍": 12
+   }
   }
  ],
  "source": {
   "base": {
-   "weights": "84c75ea03ec94f3f618b4e5d71543321e1abe8f0a74dae171fb978ca11efa425",
-   "events": "0ea781a6d83171cd13936951c2f2fdde64f812564ef75fb8a03648c7094342df"
+   "weights": "79ed060ad70c8e0e7024f4b338740e6722ffc28ea0a880f47b394fc2b4ac4a4a",
+   "events": "2f420d4ceecbd3c1098993ba29966dcd00782fcb05e2e3e6f658c801ea5c6d02"
   },
   "nitro": {
-   "weights": "df4da7fc576fba886b0884c7f6c85a739107b60717ab2896264266286e261051",
-   "events": "0fbe5cc67dd4702b5d2b332956d4b208d131b7b3620dbc5c49c1cb10fb476507"
+   "weights": "f700b5e161d9afab2472187f9cd6abef05eacc7bd72d018a9257e1bb7762d57f",
+   "events": "fe2fcf70d8a4220ef86f341aba3dc357fdfa12a20d0d83938cfac82689f8cede"
   },
   "pitstop": {
    "weights": "69e3bacda36062762bbb858cf70594ff1e6760e0d7482afa7e89bcaa3ea4124d",
-   "events": "ef8a41c7d8333aee67ec7eb68b71b4ad24c2aa23abc1c6449c9db0ba0bd514d8"
+   "events": "76e734a181682293e66288a2cd31a8f2560f3c5500eac4080e796375ca02070d"
   },
   "pole": {
    "weights": "fd27d9b19329e89765c3f773557a251c917c46eb76566df9d848d963ef5f9dfc",
-   "events": "65e131e2d5bf7d487dfb7733fc6fa6b0fba959320a448c1d864e02d0b79fbc00"
+   "events": "04af94bfadca2335813a9f1a5cd5e62e2485c9f6278e92c4eed76abcd29d7354"
+  },
+  "turbolap": {
+   "weights": "b4ceaf60ebf63d621c44c6e8eea26d1fa831838b18c7c078af771e4168498599",
+   "events": "c283683bc805a4add7109f7b42b8048c302b1b33519f7438d0671b6c9dde2d2a"
+  },
+  "qualifying": {
+   "weights": "2bbff594ef30f027a7a754ad40cac6bac42fe139e75b3e9a4911d6c4f2b16335",
+   "events": "d76611a7a4d3a7709fca93926dd417a9292109bf4758ecd21b9783595ae523e1"
   }
  }
 }
